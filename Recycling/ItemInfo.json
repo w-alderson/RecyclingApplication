@@ -1,0 +1,200 @@
+[
+    {
+        "id": 1001,
+        "name": "Food",
+        "isRecyclable": true,
+        "category": "Compostable",
+        "description": "Please place in black food bin with an optional biodegradable bag. Items accepted include: Meat and fish (including bones), Fruit and vegetables, Dairy, Egg shells, Bread, cakes and pastries, Rice, pasta and beans, Uneaten or leftover food, Teabags and coffee grounds" ,
+        "recycleWith": "Food only, NO OIL OR FAT",
+        "imageName": "Food"
+    },
+    {
+        "id": 1002,
+        "name": "Cooking Oil",
+        "isRecyclable": true,
+        "category": "Compostable",
+        "description": "NOT TO BE PLACED IN THE BLACK FOOD BIN. Take used cooking oil to a recycling centre, or soak in newspaper or kitchen roll and place in the food bin.",
+        "recycleWith": "Food (if soaked up) or at a recycling centre",
+        "imageName": "CookingOil"
+    },
+    {
+        "id": 1003,
+        "name": "Biodegradable Cutlery / Plates",
+        "isRecyclable": false,
+        "category": "Compostable",
+        "description": "Not accepted in recycling",
+        "recycleWith": "N/A",
+        "imageName": "BiodegradableCutlery"
+    },
+    {
+        "id": 1004,
+        "name": "Paper (not brown)",
+        "isRecyclable": true,
+        "category": "Paper and cardboard",
+        "description": "Incluses newspaper, magazines, catalogues, directories, Yellow Pages, junk mail, white paper and white envelopes, white based wrapping paper, greetings cards and small amounts of shredded paper (no more than 2 carrier bags at a time). NOTE, CARDBOARD AND BROWN PAPER ARE TO BE SEPERATED FROM PAPER.",
+        "recycleWith": "Glass",
+        "imageName": "Paper"
+    },
+    {
+        "id": 1005,
+        "name": "Cardboard",
+        "isRecyclable": true,
+        "category": "Cardboard",
+        "description": "Remove all plastic, sticky tape and polystyrene before putting out for recycling and flatten. Place in blue bag.",
+        "recycleWith": "Cardboard, Cartons and brown paper.",
+        "imageName":"Cardboard"
+    },
+    {
+        "id": 1006,
+        "name": "Cartons (food and drink containers)",
+        "isRecyclable": true,
+        "category": "Cardboard",
+        "description": "Remove all plastic, sticky tape and polystyrene before putting out for recycling and flatten. Place in blue bag.",
+        "recycleWith": "Cardboard, Cartons and brown paper.",
+        "imageName":"Carton"
+    },
+    {
+        "id": 1007,
+        "name": "Brown paper",
+        "isRecyclable": true,
+        "category": "Cardboard",
+        "description": "Remove all plastic, sticky tape and polystyrene before putting out for recycling and flatten. Place in blue bag.",
+        "recycleWith": "Cardboard, Cartons and brown paper.",
+        "imageName":"BrownPaper"
+    },
+    {
+        "id": 1008,
+        "name": "Plastic Bottles and food packaging",
+        "isRecyclable": true,
+        "category": "Plastic",
+        "description": "Any plastic bottles (including drinks, shampoo and bleach bottles - rinse, squash and replace the lid), plus pots, tubs and trays used ot hold food. NOTE: NO BLACK PLASTIC.",
+        "recycleWith": "Other plastic, foil and cans",
+        "imageName": "PlasticBottles"
+    },
+    {
+        "id": 1009,
+        "name": "Black plastic",
+        "isRecyclable": false,
+        "category": "Plastic",
+        "description": "Not recyclable",
+        "recycleWith": "N/A",
+        "imageName":"BlackPlastic"
+    },
+    {
+        "id": 1010,
+        "name": "Scruncable plastic",
+        "isRecyclable": false,
+        "category": "Plastic",
+        "description": "Not recyclable",
+        "recycleWith": "N/A",
+        "imageName":"ScrunchablePlastic"
+    },
+    {
+        "id": 1011,
+        "name": "Glass bottles and jars",
+        "isRecyclable": true,
+        "category": "Glass",
+        "description": "Please rinse, labels and lids can be left on. NOTE: NO BROKEN GLASS OR OTHER TYPES (E.g.  Pyrex, tumblers and window panes).",
+        "recycleWith": "Paper and glass",
+        "imageName":"Bottles"
+    },
+    {
+        "id": 1012,
+        "name": "Pyrex",
+        "isRecyclable": false,
+        "category": "Glass",
+        "description": "Non recyclable",
+        "recycleWith": "N/A",
+        "imageName":"Pyrex"
+    },
+    {
+        "id": 1013,
+        "name": "Cans, tins and aerosols",
+        "isRecyclable": true,
+        "category": "Cans",
+        "description": "Please remove lids from aerosols and ensure they are empty.",
+        "recycleWith": "Plastic, foil and tins",
+        "imageName":"Tins"
+    },
+    {
+        "id": 1014,
+        "name": "Aluminium Foil",
+        "isRecyclable": true,
+        "category": "Foil",
+        "description": "Please clean and flatten. No silver plascic (obtains original shape after scrunching) or paper backed foils.",
+        "recycleWith": "Plastic, foils and tins",
+        "imageName":"Foil"
+    },
+    {
+        "id": 1015,
+        "name": "Clothes and Shoes",
+        "isRecyclable": true,
+        "category": "Fabrics",
+        "description": "Place in a labelled plastic bad (no black bags or charity bags) and leave with recycling. Ensure items are clean and dry.",
+        "recycleWith": "Clothing only",
+        "imageName":"Clothes"
+    },
+    {
+        "id": 1016,
+        "name": "Duvets and pillows",
+        "isRecyclable": false,
+        "category": "Fabrics",
+        "description": "Not recyclable.",
+        "recycleWith": "N/A",
+        "imageName":"Pillows"
+    },
+    {
+        "id": 1017,
+        "name": "Electronic devices (small, EXCLUDING mobile phones)",
+        "isRecyclable": true,
+        "category": "Electronics",
+        "description": "Devices including small electronic devices (eg cameras), small electrical personal care (eg hairdryers), small electrical appliances (eg kettles), small DIY and garden electricals (eg drills) - Please place your electrical items in an untied plastic carrier bag next to your green recycling box. NOTE: Nothing too large to fit into a plastic bag.",
+        "recycleWith": "Electronics",
+        "imageName":"Electronics"
+    },
+    {
+        "id": 1018,
+        "name": "Batteries",
+        "isRecyclable": true,
+        "category": "Other",
+        "description": "All types accpeted. Place in a small bag on top of a recycling box. Car batteries are to be placed next to a recycling box.",
+        "recycleWith": "Batteries",
+        "imageName":"Batteries"
+    },
+    {
+        "id": 1019,
+        "name": "Engine oil and filters",
+        "isRecyclable": true,
+        "category": "Other",
+        "description": "Place oil in a sealed oil container. Wrap filtes in a bag to avoid leaks.",
+        "recycleWith": "Engine oil and filters",
+        "imageName":"EngineOil"
+    },
+    {
+        "id": 1020,
+        "name": "Mobile phones",
+        "isRecyclable": true,
+        "category": "Electronics",
+        "description": "Place with other recycling in a bag.",
+        "recycleWith": "Mobile phones",
+        "imageName":"MobilePhone"
+    },
+    {
+        "id": 1021,
+        "name": "Printer ink carterages",
+        "isRecyclable": true,
+        "category": "Other",
+        "description": "Place in original packaging or new carterage packaging if possible.",
+        "recycleWith": "Ink cartreges",
+        "imageName":"Paper"
+    },
+    {
+        "id": 1022,
+        "name": "Spectacles",
+        "isRecyclable": true,
+        "category": "Other",
+        "description": "Only unbroken spectacles are available.",
+        "recycleWith": "Spectacles",
+        "imageName":"Spectacles"
+    }
+]

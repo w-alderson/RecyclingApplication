@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1001,
+        "name": "Bath Recycling Centre",
+        "openingTimes": "8am to 4.15pm - Monday to Friday\n9am to 3.45pm - Saturday\n9am to 1pm - Sunday",
+        "types": "All recyclable and landfill",
+        "address": "Midland Rd, Bath BA1 3AT",
+        "imageName": "Bath",
+        "longitude" : -2.377701,
+        "latitude" : 51.385055
+        
+    },
+    {
+        "id": 1002,
+        "name": "Keynsham Recycling Centre",
+        "openingTimes": "8am to 4.15pm - Monday to Friday\n9am to 3.45pm - Saturday\n9am to 1pm - Sunday",
+        "types": "All recyclable and landfill",
+        "address": "Pixash Ln, Keynsham, Bristol BS31 1TP",
+        "imageName": "Keynsham",
+        "longitude" : -2.474338,
+        "latitude" : 51.412797
+    },
+    {
+        "id": 1003,
+        "name": "BANES Recycling Centre",
+        "openingTimes": "8am to 4.15pm - Monday to Friday\n9am to 3.45pm - Saturday\n9am to 1pm - Sunday",
+        "types": "All recyclable and landfill",
+        "address": "Wellow Brook Ct, Midsomer Norton, Radstock BA3 2DJ",
+        "imageName": "BANES",
+        "longitude" : -2.465975,
+        "latitude" : 51.291763
+    }
+]

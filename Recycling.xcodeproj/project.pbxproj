@@ -9,12 +9,24 @@
 /* Begin PBXBuildFile section */
 		B05CA2812363878F007E1A31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CA2802363878F007E1A31 /* AppDelegate.swift */; };
 		B05CA2832363878F007E1A31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CA2822363878F007E1A31 /* SceneDelegate.swift */; };
-		B05CA2852363878F007E1A31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CA2842363878F007E1A31 /* ContentView.swift */; };
+		B05CA2852363878F007E1A31 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CA2842363878F007E1A31 /* HomeView.swift */; };
 		B05CA28723638793007E1A31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B05CA28623638793007E1A31 /* Assets.xcassets */; };
 		B05CA28A23638793007E1A31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B05CA28923638793007E1A31 /* Preview Assets.xcassets */; };
 		B05CA28D23638793007E1A31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05CA28B23638793007E1A31 /* LaunchScreen.storyboard */; };
 		B05CA29823638794007E1A31 /* RecyclingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CA29723638794007E1A31 /* RecyclingTests.swift */; };
 		B05CA2A323638794007E1A31 /* RecyclingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CA2A223638794007E1A31 /* RecyclingUITests.swift */; };
+		B05CA2B323638FDF007E1A31 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CA2B223638FDF007E1A31 /* Data.swift */; };
+		B05CA2B523639211007E1A31 /* Centres.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CA2B423639211007E1A31 /* Centres.swift */; };
+		B05CA2B723639429007E1A31 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CA2B623639429007E1A31 /* Items.swift */; };
+		B05CA2B923639555007E1A31 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CA2B823639555007E1A31 /* ItemView.swift */; };
+		B05CA2BA23639C2B007E1A31 /* RecyclingCentresInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = B05CA2B0236389A8007E1A31 /* RecyclingCentresInfo.json */; };
+		B05CA2BB23639C2F007E1A31 /* ItemInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = B05CA2B123638A71007E1A31 /* ItemInfo.json */; };
+		B05CA2BD2363AA87007E1A31 /* ItemsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CA2BC2363AA87007E1A31 /* ItemsList.swift */; };
+		B05CA2C12363AAAC007E1A31 /* CentresList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CA2C02363AAAC007E1A31 /* CentresList.swift */; };
+		B05CA2C32363AFE5007E1A31 /* ItemListSingular.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CA2C22363AFE5007E1A31 /* ItemListSingular.swift */; };
+		B05CA2C52363C48A007E1A31 /* CentreListSingular.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CA2C42363C48A007E1A31 /* CentreListSingular.swift */; };
+		B05CA2C72363C8A7007E1A31 /* CentreList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CA2C62363C8A7007E1A31 /* CentreList.swift */; };
+		B071E4372365E010007233B3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B071E4362365E010007233B3 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +50,7 @@
 		B05CA27D2363878F007E1A31 /* Recycling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recycling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05CA2802363878F007E1A31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B05CA2822363878F007E1A31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B05CA2842363878F007E1A31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B05CA2842363878F007E1A31 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B05CA28623638793007E1A31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B05CA28923638793007E1A31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B05CA28C23638793007E1A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,18 @@
 		B05CA29E23638794007E1A31 /* RecyclingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecyclingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05CA2A223638794007E1A31 /* RecyclingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclingUITests.swift; sourceTree = "<group>"; };
 		B05CA2A423638794007E1A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B05CA2B0236389A8007E1A31 /* RecyclingCentresInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RecyclingCentresInfo.json; sourceTree = "<group>"; };
+		B05CA2B123638A71007E1A31 /* ItemInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ItemInfo.json; sourceTree = "<group>"; };
+		B05CA2B223638FDF007E1A31 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		B05CA2B423639211007E1A31 /* Centres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Centres.swift; sourceTree = "<group>"; };
+		B05CA2B623639429007E1A31 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		B05CA2B823639555007E1A31 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		B05CA2BC2363AA87007E1A31 /* ItemsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsList.swift; sourceTree = "<group>"; };
+		B05CA2C02363AAAC007E1A31 /* CentresList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentresList.swift; sourceTree = "<group>"; };
+		B05CA2C22363AFE5007E1A31 /* ItemListSingular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListSingular.swift; sourceTree = "<group>"; };
+		B05CA2C42363C48A007E1A31 /* CentreListSingular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentreListSingular.swift; sourceTree = "<group>"; };
+		B05CA2C62363C8A7007E1A31 /* CentreList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentreList.swift; sourceTree = "<group>"; };
+		B071E4362365E010007233B3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +103,7 @@
 		B05CA2742363878F007E1A31 = {
 			isa = PBXGroup;
 			children = (
+				B05CA2C02363AAAC007E1A31 /* CentresList.swift */,
 				B05CA27F2363878F007E1A31 /* Recycling */,
 				B05CA29623638794007E1A31 /* RecyclingTests */,
 				B05CA2A123638794007E1A31 /* RecyclingUITests */,
@@ -101,11 +126,22 @@
 			children = (
 				B05CA2802363878F007E1A31 /* AppDelegate.swift */,
 				B05CA2822363878F007E1A31 /* SceneDelegate.swift */,
-				B05CA2842363878F007E1A31 /* ContentView.swift */,
+				B05CA2842363878F007E1A31 /* HomeView.swift */,
+				B071E4362365E010007233B3 /* MapView.swift */,
+				B05CA2BC2363AA87007E1A31 /* ItemsList.swift */,
+				B05CA2C22363AFE5007E1A31 /* ItemListSingular.swift */,
+				B05CA2C42363C48A007E1A31 /* CentreListSingular.swift */,
+				B05CA2C62363C8A7007E1A31 /* CentreList.swift */,
 				B05CA28623638793007E1A31 /* Assets.xcassets */,
 				B05CA28B23638793007E1A31 /* LaunchScreen.storyboard */,
 				B05CA28E23638793007E1A31 /* Info.plist */,
 				B05CA28823638793007E1A31 /* Preview Content */,
+				B05CA2B0236389A8007E1A31 /* RecyclingCentresInfo.json */,
+				B05CA2B123638A71007E1A31 /* ItemInfo.json */,
+				B05CA2B423639211007E1A31 /* Centres.swift */,
+				B05CA2B623639429007E1A31 /* Items.swift */,
+				B05CA2B823639555007E1A31 /* ItemView.swift */,
+				B05CA2B223638FDF007E1A31 /* Data.swift */,
 			);
 			path = Recycling;
 			sourceTree = "<group>";
@@ -241,6 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B05CA28D23638793007E1A31 /* LaunchScreen.storyboard in Resources */,
+				B05CA2BB23639C2F007E1A31 /* ItemInfo.json in Resources */,
+				B05CA2BA23639C2B007E1A31 /* RecyclingCentresInfo.json in Resources */,
 				B05CA28A23638793007E1A31 /* Preview Assets.xcassets in Resources */,
 				B05CA28723638793007E1A31 /* Assets.xcassets in Resources */,
 			);
@@ -267,9 +305,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B05CA2BD2363AA87007E1A31 /* ItemsList.swift in Sources */,
+				B05CA2B523639211007E1A31 /* Centres.swift in Sources */,
 				B05CA2812363878F007E1A31 /* AppDelegate.swift in Sources */,
 				B05CA2832363878F007E1A31 /* SceneDelegate.swift in Sources */,
-				B05CA2852363878F007E1A31 /* ContentView.swift in Sources */,
+				B071E4372365E010007233B3 /* MapView.swift in Sources */,
+				B05CA2C72363C8A7007E1A31 /* CentreList.swift in Sources */,
+				B05CA2852363878F007E1A31 /* HomeView.swift in Sources */,
+				B05CA2B923639555007E1A31 /* ItemView.swift in Sources */,
+				B05CA2B723639429007E1A31 /* Items.swift in Sources */,
+				B05CA2C32363AFE5007E1A31 /* ItemListSingular.swift in Sources */,
+				B05CA2B323638FDF007E1A31 /* Data.swift in Sources */,
+				B05CA2C12363AAAC007E1A31 /* CentresList.swift in Sources */,
+				B05CA2C52363C48A007E1A31 /* CentreListSingular.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
