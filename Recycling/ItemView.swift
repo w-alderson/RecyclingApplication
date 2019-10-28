@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+//View for info about items
 struct ItemView: View {
     
     var item: Items
@@ -27,6 +28,7 @@ struct ItemView: View {
                 Text(item.category)
                     .fontWeight(.thin)
                     .padding(.bottom)
+                //Makes it clear items cannot be recycled
                 if(!item.isRecyclable){
                     Text("THIS ITEM IS NOT RECYCLABLE.\n DO NOT PLACE IN RECYCLING BIN")
                         .font(.largeTitle)
@@ -45,8 +47,6 @@ struct ItemView: View {
             }
         
         }
-        //.edgesIgnoringSafeArea(.top)
-        //.navigationBarHidden(true)
         
     }
 }

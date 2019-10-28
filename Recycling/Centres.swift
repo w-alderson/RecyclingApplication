@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+//Struct for centres
 struct Centres: Hashable, Codable, Identifiable{
     var id: Int
     var name: String

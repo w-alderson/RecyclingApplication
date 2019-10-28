@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+// Home screen with two tabs
 struct HomeView: View {
     var body: some View {
         TabView{

@@ -9,6 +9,7 @@
 import SwiftUI
 import MapKit
 
+//Gnerates map based on coordinates in Centre.json and adds a pin with name and address
 struct MapView: UIViewRepresentable {
     var centre: Centres
     

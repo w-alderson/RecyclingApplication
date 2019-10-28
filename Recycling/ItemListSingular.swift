@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+//View for single item in itemList
 struct ItemListSingular: View {
     
     var item: Items

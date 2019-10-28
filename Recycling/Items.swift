@@ -8,6 +8,7 @@
 
 import Foundation
 
+// Struct for items
 struct Items: Hashable, Identifiable, Codable {
     
     var id: Int

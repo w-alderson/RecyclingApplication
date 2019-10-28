@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+//View for all items
 struct ItemsList: View {
     var body: some View {
         

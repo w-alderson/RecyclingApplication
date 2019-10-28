@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+//View to display info about centres
 struct CentreListSingular: View {
     var centre: Centres
     var body: some View {
@@ -15,7 +16,6 @@ struct CentreListSingular: View {
         NavigationView{
             ScrollView {
                 VStack {
-                    
                     Image(centre.imageName)
                     .resizable()
                     .frame(width: 300, height: 300)

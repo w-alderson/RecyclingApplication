@@ -8,9 +8,11 @@
 
 import Foundation
 
+//Arrays used throughout the application to access data from json files
 let itemData:[Items] = load("ItemInfo.json")
 let centreData:[Centres] = load("RecyclingCentresInfo.json")
 
+//reads json files and converts them to readable format
 func load<T:Decodable>(_ filename:String, as type:T.Type = T.self)-> T{
     let data:Data
     guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
